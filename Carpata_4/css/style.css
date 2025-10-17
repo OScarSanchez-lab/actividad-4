@@ -1,0 +1,57 @@
+/* Reset ya viene importado desde reset.css */
+
+body {
+  font-family: Georgia, serif;
+  line-height: 1.6;
+  color: #111;
+  background-color: #fffdf4;
+}
+
+/* Encabezado principal */
+header {
+  background-color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 3px solid #f2e28b;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #e1cf60;
+  font-weight: bold;
+}
+
+/* Estilo parallax general */
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 20vh;
+}
+
+/* Fondos específicos */
+.parallax-1,
+.parallax-2,
+.parallax-3 {
+  background-image: url('../img/olive-oil_1920.webp');
+}
+
+/* Contenido de cada sección */
+.content {
+  padding: 40px 50px;
+  background-color: #fefaf0;
+}
+
+.content h3 {
+  font-size: 1.8rem;
+  color: #111;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.content p {
+  font-size: 1.2rem;
+  color: #222;
+}
